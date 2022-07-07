@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bef276b32bfa31e4ebaaf6d6715341de, type: 3}
+  m_Name: Character2Data
+  m_EditorClassIdentifier: 
+  CharacterID: 2
+  CharName: Char 2
+  CharSprite: {fileID: -1828160186, guid: e10049cf092d1dc448fb15f6068cc4e5, type: 3}
+  HealthAmount: 75
+  DamageMaxAmount: 20
+  DamageMinAmount: 5
+  AIMaxAttackDelay: 0
+  AIMinAttackDelay: 0
+  CurrentDamage: 19.29779
+  CurrentHealth: 42.67137

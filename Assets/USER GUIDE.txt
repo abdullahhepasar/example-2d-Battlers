@@ -1,0 +1,96 @@
+Folders:
+--------
+_Project: Folder with the whole project
+Resources: Contains Character Data, UI Prefabs
+UI Animator: Plugin that provides UI animations
+
+_Project/Prefabs: Includes all management prefabs
+_Project/Resources: Character Datas, Texture and UI resources
+_Project/Scenes: Game Scene
+_Project/Scripts: Includes Manager, UI and Tool scripts
+
+
+***SCRIPTS***
+
+AppStartActivityManager.cs
+--------------------------
+Starting the application and installing the plugins
+
+AppValueController.cs
+---------------------
+The class where constant variables are kept and Game Economy is built
+
+UIManager.cs
+-------------
+Allows the player to interact with the UI. Initialize desired UIs
+
+CharacterManager.cs
+--------------------
+Integrity of Characters and Enemies Data
+
+LanguageManager.cs
+------------------
+Localization Class
+
+GameManager.cs
+--------------
+AI Enemies control class
+
+CharacterDataScriptable.cs
+---------------------------
+The ScriptableObject class. Contains the parameters of the character data.
+Each character has a unique ID.
+All character data is in "_Project/Resources/ScriptableData" folder.
+
+UIMainMenu.cs
+-------------
+UI classes are classes that interact with the Player. All data is shown in these classes.
+Button events, Text or sprite variables occur here.
+
+UIGameplay.cs
+-------------
+The section where the Player and the Enemy are fighting. The Attack button causes the player to damage the enemy. 
+AI Enemy automatically set damage to the player. The last one standing wins.
+
+UIPopupSettings.cs
+------------------
+Contains game settings
+
+UILevelSuccess.cs and UILevelFailed.cs
+--------------------------------------
+Classes that give the effect to the player if the player wins and loses the game
+
+CanvasHelper.cs
+---------------
+Provides Responsive UI on all mobile devices
+
+
+To Add Character:
+1- Go to the "_Project/Resources/ScriptableData/CharacterDatas" folder.
+2- In the folder "Right click/Create/Project/CharacterData"
+3- Fill the data of the resulting ScriptableObject.
+
+That is all. Then press play and fight.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
